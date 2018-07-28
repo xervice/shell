@@ -16,7 +16,7 @@ composer require xervice/shell
 Using
 -----------------
 ```php
-$output = $this->getFacade()->runCommand(
+$output = $shellFacade->runCommand(
     'command %s %s %s',
     $param1,
     $param2,
